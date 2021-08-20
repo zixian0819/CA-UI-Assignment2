@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.child-box {
+  border: 1rem solid white;
+  height: 100px;
+  width: 100px;
+  background-color: plum;
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.suggestion {
+  cursor:pointer;
+  width: 30%;
+  text-align: center;
+  margin-left: 35%;
+
+ 
+  }
+  
+  .suggestion:hover {
+  background-color:rgb(145, 226, 145);
+  }
+
+  .input-1 {
+    margin-top: 30px;
+    text-align: center;
+
+  }
+
+  .resume {
+    text-align: center;
+    margin-top:20px;
+  }
+
+  .bar{
+    width: 300px;
+    height: 30px;
+  }
+
+  .progress-bar {
+    width: 180px;
+    height: 30px;
+    border: 2px solid grey
+  }
+
+  .progress-bar:hover {
+    background-color: green;
+  }
+
+  .input {
+    width: 180px;
+    height: 30px;
+    padding: 10px;
+    background: #f3f3f3;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: none;
+  }
+
+  .ul {
+    display: contents;
+  }
+
+  .li {
+    cursor:pointer;
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+
+    /* width: 222px;
+    font-weight: bold;
+    height: 51px;
+    padding: 10px;
+    background: #f5f0f0;
+    display: block;
+    border-bottom: 1px solid white; */
+
+  }
+
+  .li:hover {
+    background-color:rgb(145, 226, 145);
+  }
+
+
+
+  .suggest-container {
+    height: 240px;
+    width: 242px;
+    overflow: scroll;
+  }
